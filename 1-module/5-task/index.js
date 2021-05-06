@@ -3,5 +3,5 @@ function truncate(str, maxlength) {
     return str.slice(0, maxlength - 1) + '…';
   }
 
-  else {return str;}
+  return str;
 }

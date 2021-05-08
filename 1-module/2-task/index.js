@@ -14,7 +14,7 @@ function isValid(name) {
     return false;
   }
 
-  else if (name.includes(' ')) {
+  if (name.includes(' ')) {
     return false;
   }
 
